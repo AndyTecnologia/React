@@ -1,12 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import ListComponent from './ListComponent';
+import UserList from './UserList'
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <ListComponent />
+      <UserList />
 
    
   </React.StrictMode>,
