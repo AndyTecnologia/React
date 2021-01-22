@@ -1,5 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
+import React from 'react';
+import ReactDOM from 'react-dom';
 
 function App() {
   return (
@@ -23,3 +25,9 @@ function App() {
 }
 
 export default App;
+
+
+function Test(){
+  return <h1>Olá</h1>
+}
+
